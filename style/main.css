@@ -1,4 +1,4 @@
-.video-container {
+/*.video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
@@ -85,3 +85,39 @@ h3 {
     margin-top: 0.9310em;
     margin-bottom: 0;
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0; left: 35px;
+    width: 100%; height: 100%;
+}*/
+
+<style type="text/css">
+.div_table-cell{
+	width:450px; 
+	height:500px;	
+	background-color:#333; 
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+	border:solid 2px #fff;	
+	}
+ 
+/* IE6 hack */
+.div_table-cell span{
+	height:100%; 
+	display:inline-block;
+	}
+ 
+/* 讓table-cell下的所有元素都居中 */
+.div_table-cell *{ vertical-align:middle;}
+</style>
