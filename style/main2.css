@@ -1,0 +1,38 @@
+.center-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width:400px;
+  height:200px;
+  background-color: #5500FF;
+  margin:0;
+}
+
+.center-blocke {
+  position:absolute;
+  width:100px;
+  height:100px;
+  top:50%;
+  left:50%;
+  margin-top:-200px; /*本身height的50%*/
+  margin-left: -200px; /*本身width的50%*/
+  background-color: #33CCFF; 
+}
+
+html, body {
+    margin:0; padding:0; height:100%;
+}
+.float-center {
+  float:left;
+  height:50%;
+  margin-bottom:-200px;
+  width:1px; /* only for IE7 */
+}
+.center-blocked {
+  clear:both;
+  height:100px;
+  position:relative;
+  background-color:#E63F00;
+}
