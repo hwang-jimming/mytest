@@ -1,10 +1,81 @@
-body {
-    font-size: 19px;
-    font-family: "cronos-pro", "alegreya", calibri, candara, "segoe UI", Optima, Arial, sans-serif;
-    color: rgb(226, 226, 226);
-    background: rgb(15, 15, 15);
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2% 6% 6% 6%; /* 使container內縮 */
+header{
+    padding-left:225px;
 }
+body {
+    background-color:#FFB3FF;
+}
+
+div {
+    float:left;
+}
+
+
+ .BOX {
+     background-color:#007799;
+     width:250Px;
+     height:250px;
+     margin:35px 0px 0px 10px;
+     padding-left:10px;
+     padding-top:30px;
+     overflow:hidden;
+     border: 3px solid #33FFAA;
+     box-shadow:1px 5px 5px #000000;
+}
+
+.BOX1 { 
+    background-color:#FFFF33;
+     width:250Px;
+     height:250px;
+     margin:35px 0px 0px 10px;
+     overflow:hidden;
+     padding-top:30px;
+     padding-left:10px;
+     border: 3px solid #00DDDD;
+     box-shadow:1px 5px 5px #000000;
+     
+}
+
+.BOX2{
+    background-color:#AAFFEE;
+     width:250Px;
+     height:250px;
+     margin:35px 0px 0px 10px;
+     border: 3px solid #00AA00;
+     box-shadow:1px 5px 5px #CCDDFF;
+     
+}
+
+
+@media screen and (min-width: 750px) {
+    .main-navigation {
+        min-height: 100px; 
+        border-top: 1px solid rgb(36, 36, 36);
+        border-bottom: 1px solid rgb(36, 36, 36);
+    }
+    
+    .main-navigation ul {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    
+    .main-navigation li {
+        float: left; /* 靠左流動 */
+        margin-left: 20px;
+        width: 28%;
+    }
+    .main-navigation a {
+        background: none;
+    }
+        .main-navigation a:hover{
+            background: none;
+        }
+}/* media query */
+
+@media screen and (min-width: 880px){
+
+     .main-navigation ul {
+        position: relative;
+         right: -30px;
+    }
+    
+}/* media query */

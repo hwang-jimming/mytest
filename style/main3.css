@@ -1,0 +1,27 @@
+body {
+    font-size: 19px;
+    font-family: "cronos-pro", "alegreya", calibri, candara, "segoe UI", Optima, Arial, sans-serif;
+    color: rgb(226, 226, 226);
+    background: rgb(15, 15, 15);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 6% 6% 6%; /* 使container內縮 */
+}
+
+.css_table {
+    display:table-row;
+    border-collapse:collapse;
+      display:table;
+      }
+  
+.css_tr {
+    display:table-row;
+    border-collapse:collapse;
+    border:1px solid black;
+  }
+.css_td {
+    display: table-cell;
+    border-collapse:collapse;
+    border:1px solid black;
+  }

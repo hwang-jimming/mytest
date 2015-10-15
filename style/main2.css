@@ -1,38 +1,20 @@
-.center-block {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width:400px;
-  height:200px;
-  background-color: #5500FF;
-  margin:0;
-}
+.wrapper {
+        width: 900px;   /*寬度設定為900px*/
+        margin: auto;   /*版面居中對齊*/
+        }
 
-.center-blocke {
-  position:absolute;
-  width:100px;
-  height:100px;
-  top:50%;
-  left:50%;
-  margin-top:-200px; /*本身height的50%*/
-  margin-left: -200px; /*本身width的50%*/
-  background-color: #33CCFF; 
-}
+.header {
+        height: 130px; /*高度設定為130px，因有有設背景圖片，所以要設高度*/
+        }
 
-html, body {
-    margin:0; padding:0; height:100%;
-}
-.float-center {
-  float:left;
-  height:50%;
-  margin-bottom:-200px;
-  width:1px; /* only for IE7 */
-}
-.center-blocked {
-  clear:both;
-  height:100px;
-  position:relative;
-  background-color:#E63F00;
-}
+.btn {
+        height:  30px; /*高度設定為  30px，此部分因為裡面的圖片自己會有高度，所以高度也不一定要設定*/
+        }
+
+.content {
+        /* CSS 中 DIV 自己會長到上層 DIV100% 的寬度 (在這裡就是 #wrapper)，所以可不用設定寬度*/
+        }
+
+.footer {
+
+         }
