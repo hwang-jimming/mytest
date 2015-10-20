@@ -1,0 +1,28 @@
+header{
+    width: 750px;
+    background: rgb(170, 230, 170);
+    padding-left:25%;
+}
+
+
+
+
+.BOX {
+     background-color:#007799;
+     
+}
+
+.BOX1 { 
+    background-color:#FFFF33;
+}
+
+.BOX2{
+    background-color:#AAFFEE;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background: #fff;
+	border: 0;
+	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+}
