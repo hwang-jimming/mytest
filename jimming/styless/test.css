@@ -1,0 +1,34 @@
+div {
+    background-size:35px 100px;
+    background-repeat:no-repeat;
+    background:rgba(5%,7%,9%,)
+    padding:33px;
+    margin:3px;
+}
+
+.contianer{
+    background-image:url(../img/logoo.png);
+    background-color:rgba(177,133,44,1.0);
+    height:120px;
+    width:250px;
+    float:left;
+}
+
+span{
+    width:120px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+ul li{
+    display:inline;
+}
+
+a:hover {
+      font-size:200%;
+      background-color:rgba(188,133,200,1.0);
+      font-family:fantasy,monospace;
+    }
+    
