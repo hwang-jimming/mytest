@@ -1,0 +1,213 @@
+html, body{
+    height:100%;
+    background-color:rgba(135, 206, 250, 0.1);
+  
+}
+
+
+/*頂端文字連結的V區塊*/
+.divtop{
+  width:450px;    
+}
+
+/*外層DIV,所有的DIV放置在這裡面*/
+.floater{
+    margin:0px;
+    padding-left:30px;
+    height: 100%;
+    
+}
+
+/*LOGO圖片DIV區塊*/
+.contianer{
+    background:url(../img/testlogo.png) no-repeat center;
+    background-size:210px 210px;
+    height:210px;
+    width:210px;
+    border-style:inset;
+    float:left;
+}
+
+/*白天建築物圖片DIV區塊*/
+.center1{
+    background:url(../img/O2T5TQIT1C.jpg) center;
+    background-size:900px,auto;
+    opacity:.6;
+    float:left;
+    height:215px;
+    width:600px;
+    overflow:hidden;
+}
+
+/*文字DIV區塊*/
+.right1{
+    background-color:rgb(100,210,255);
+    height:210px;
+    width:350px;
+    border-style:solid;
+    float:left;
+    overflow:hidden;
+}
+
+/*文字上方的圖片*/
+.photo1{
+    padding-left:100px;
+    background:url(../img/sps1958-1515.jpg) no-repeat;
+    background-size:100%,100%; /*高度,寬度*/
+    opacity:.4;
+    float:left;
+ width:350px;
+ height:210px;
+ overflow:hidden;
+}
+
+/*中間DIV區塊*/
+.center2{
+    width:120px;
+    height:200px;
+    background-color:rgba(210, 22, 190, 0.2);
+    position:absolute;
+    left:0px;
+    top:300px;
+ 
+}
+
+.span-top{
+    width:400px;
+}
+
+/*置入文字的小區塊*/
+.span-conter{
+  width:150px;
+  margin-left:-250px;
+  position:absolute;
+}
+
+/*文字的範圍區塊*/
+ul{
+    list-style:none;
+    padding:0;
+}
+
+/*文字排列方式,橫向顯示*/
+ul li{
+    display:inline;
+}
+
+/*游標移動到文字上方時會有放大特效*/
+a:hover {
+      font-size:200%;
+      background-color:rgba(188,133,200,1.0);
+      font-family:fantasy,monospace;
+    }
+    
+/*手機實體螢幕小於767的寬度時會覆蓋上面所有屬性並且只顯示部分DIV區塊*/ 
+@media screen and (max-device-width:767px){
+body{
+    background-color:rgba(135, 206, 250, 0.1);
+  
+}    
+
+/*頂端文字連結的V區塊*/       
+.divtop{
+width:750px;    
+}
+
+/*置入文字的小區塊*/
+   span{
+    width:650px;
+}
+
+/*文字排列方式,橫向顯示*/       
+  ul li{
+    font-size:35px;
+    display:inline;
+}
+     
+ /*LOGO圖片DIV區塊*/     
+ .contianer{
+    background:url(../img/testlogo.png) no-repeat center;
+    opacity:.3;
+    background-size:850px 850px;
+    height:860px;
+    width:860px;
+    border-style:groove;
+    border-width:5px;
+    float:left;
+    margin-top:10px;
+}   
+    
+     
+ /*白天建築物圖片DIV區塊*/   
+.center1{
+    background:url(../img/O2T5TQIT1C.jpg) no-repeat center;
+    background-size:850Px,850px;
+    opacity:.4;
+    float:left;
+    height:760px;
+    width:760px;
+    overflow:hidden;
+}
+}  
+
+/*手機實體螢幕小於480的寬度時會覆蓋上面所有屬性並且只顯示部分DIV區塊*/ 
+@media screen and (max-device-width:480px){
+ 
+/*游標移動到文字上方時會有放大特效*/ 
+a:hover {
+      font-size:100%;
+      background-color:rgba(188,133,200,1.0);
+      font-family:fantasy,monospace;
+    }
+ 
+/*LOGO圖片DIV區塊*/ 
+.contianer{
+    background:url(../img/testlogo.png) no-repeat center;
+    opacity:.3;
+    background-size:450px 450px;
+    height:460px;
+    width:460px;
+    border-style:inset;
+    border-width:1px;
+    float:left;
+}   
+    
+.center1{
+    background:url(../img/O2T5TQIT1C.jpg) no-repeat center;
+    border-radius: 2%;
+    background-size:350Px,350px;
+    opacity:.4;
+    height:460px;
+    width:460px;
+    overflow:hidden;
+}
+}
+
+@media screen and (max-device-width:860px){
+
+
+ .contianer{
+    background:url(../img/testlogo.png) no-repeat center;
+    opacity:.3;
+    background-size:750px 750px;
+    height:760px;
+    width:760px;
+    float:left;
+    vertical-align : middle;
+    
+}   
+    
+    
+    
+.center1{
+    background:url(../img/O2T5TQIT1C.jpg) no-repeat center;
+    background-size:850Px,850px;
+    opacity:.4;
+    float:left;
+    height:760px;
+    width:760px;
+    overflow:hidden;
+}
+}
+ 
+  
