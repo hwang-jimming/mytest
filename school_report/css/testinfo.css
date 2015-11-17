@@ -1,0 +1,99 @@
+body{
+    background:rgba(250, 233, 168,);
+}
+
+/*外圍*/
+.div-Periphery{
+
+    width:900px;
+    height:900px;
+    margin:float;
+    
+}
+/*加入圖片的DIV區塊*/
+.photo-inside{
+    margin-left:15px;
+    border:2px #ccc solid;
+    width:650px;
+    height:420px;
+    background:url(../img/janpen-03.jpg) no-repeat scroll;
+    background-size:cover;
+    opacity:0.5;
+}
+
+
+span {
+    width:600px;
+    height:350px;
+    font-size:2em;
+    margin-top:-50px;
+    margin-left:30px;
+    position:absolute;
+}
+
+/*手機實體螢幕小於767的寬度時會覆蓋上面所有屬性並且只顯示部分DIV區塊*/ 
+@media screen and (max-device-width:767px){
+  
+  .div-Periphery{
+
+    width:750px;
+    height:750px;
+    margin:float;
+    
+}
+/*加入圖片的DIV區塊*/
+.photo-inside{
+    margin-left:40px;
+    border:2px #ccc solid;
+    width:650px;
+    height:420px;
+    background:url(../img/janpen-03.jpg) no-repeat center;
+    background-size:650px, 350px;
+    opacity:0.5;
+}
+
+
+span {
+    width:600px;
+    height:50px;
+    font-size:2em;
+    margin-top:-50px;
+    margin-left:30px;
+    position:absolute;  
+    
+}
+}
+
+/*手機實體螢幕小於480的寬度時會覆蓋上面所有屬性並且只顯示部分DIV區塊*/ 
+@media screen and (max-device-width:480px){
+ /*外圍*/
+.div-Periphery{
+
+    width:900px;
+    height:900px;
+    margin:float;
+    
+}
+/*加入圖片的DIV區塊*/
+.photo-inside{
+    margin-left:15px;
+    border:2px #ccc solid;
+    width:650px;
+    height:420px;
+    background:url(../img/janpen-03.jpg) no-repeat scroll 0 0 !important;
+    background-size:5px, 5px;
+    opacity:0.5;
+}
+
+
+span {
+    width:600px;
+    height:50px;
+    font-size:2em;
+    margin-top:-50px;
+    margin-left:30px;
+    position:absolute;
+}   
+}
+
+ 

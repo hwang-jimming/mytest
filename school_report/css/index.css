@@ -1,27 +1,28 @@
-html, body{
+html{
     height:100%;
-    background-color:rgba(135,206,250,0.2);
-  
 }
-
-
+html body{
+    width:100%;
+}
 /*頂端文字連結的V區塊*/
 .divtop{
-  width:450px;    
+  width:100%;    
 }
 
-/*外層DIV,所有的DIV放置在這裡面*/
+/*包住所有DI個DIV*/
 .floater{
-    margin:0px;
+    margin:50px auto;
     padding-left:30px;
     height: 100%;
-    
+    position:absolute;
+    margin-left:15%;
 }
 
 /*LOGO圖片DIV區塊*/
 .contianer{
+    margin:6px 4px;
     background:url(../img/testlogo.png) no-repeat center;
-    background-size:210px 210px;
+    background-size:cover;
     height:210px;
     width:210px;
     border-style:inset;
@@ -30,19 +31,21 @@ html, body{
 
 /*白天建築物圖片DIV區塊*/
 .center1{
+    margin:6px 4px;
     background:url(../img/O2T5TQIT1C.jpg) center;
-    background-size:900px,auto;
+    background-size:cover;
     opacity:.6;
     float:left;
     height:215px;
-    width:600px;
+    width:350px;
     overflow:hidden;
 }
 
 /*文字DIV區塊*/
 .right1{
+    margin:6px 4px;
     height:210px;
-    width:350px;
+    width:300px;
     border-style:solid;
     float:left;
     overflow:hidden;
@@ -50,31 +53,33 @@ html, body{
 
 /*文字上方的圖片*/
 .photo1{
-    padding-left:100px;
+   /* padding-left:150px;*/
     background:url(../img/sps1958-1515.jpg) no-repeat;
     background-size: cover; /*高度,寬度*/
     opacity:.4;
     float:left;
- width:350px;
+ width:300px;
  height:210px;
  overflow:hidden;
 }
 
 /*中間DIV區塊*/
 .center2{
-    height:100%;
-    background-color:rgba(210, 22, 190, 0.2);
-    float: left;
+    background:rgba(230, 150, 110, 0.5);
+    height:150px;
+    width:900px;
+    float:left;
+
 }
 
 .span-top{
-    width:400px;
+    width: 100%;
 }
 
 /*置入文字的小區塊*/
 .span-conter{
-  width:150px;
-  margin-left:-250px;
+  width:170px;
+  margin-left:-180px;
   position:absolute;
   font-family:DFKai-sb;
 }

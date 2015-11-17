@@ -1,0 +1,13 @@
+html body{
+    background-color:rgba(77, 100, 250, 0.4);
+    
+}
+
+.container{
+    height:100%;
+    background: url(../img/Burj-Al-Arab-Hotel.jpg) no-repeat;
+    background:cover;
+}
+
+
+
