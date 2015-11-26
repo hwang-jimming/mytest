@@ -227,7 +227,6 @@ ul.contact li a.icon-rss:before
 	.boxA,  .boxB,  .boxC
 {
 	width: 300px;
-
 }
 
 .boxA,  .boxB
@@ -445,7 +444,7 @@ ul.contact li a.icon-rss:before
 .title
 {
 	margin-bottom: 3em;
-	text-transform: uppercase;
+	text-transform: uppercase; /*文字顯示大寫*/
 }
 
 .title h2
@@ -496,7 +495,7 @@ ul.style3
 ul.style3 li
 {
 	padding: 1.6em 0em 0em 0em;
-	margin: 0 0 em 0;
+	margin: 0 0 1em 0;
 }
 
 ul.style3 p
@@ -543,7 +542,7 @@ ul.style3 .date
 	box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);/*方型陰影*/
 	line-height: normal;
 	text-align: center;
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	text-shadow: 0px 1px 0px rgba(0,0,0,.2); /*文字陰影*/
 	font-size: 1em;
 	font-weight: 400;
@@ -552,7 +551,7 @@ ul.style3 .date
 
 ul.style3 .date:after
 {
-	content: ''; /*測試*/
+	content: '';   /*測試*/
 	display: block;
 	position: absolute;
 	left: 0;
